@@ -1,83 +1,145 @@
-### Security Controls - security measures to help minimize loss or unavalibility of services or apps due to vulnerablities.
+## Security Controls
 
-# Categories of Security Controls
+**Security controls** are like rules and tools that help protect our things, such as services or apps, from getting lost or not working because of problems (called vulnerabilities).
 
-1. **Technical** 
-    - Hardware or software mechanisms which can be used to manage access to resources and systems and also provide protection to those resources.
-> ### Examples
-> - Encryption
-> - Smart Cards
-> - Passwords
-> - Biometrics
-> - Access Control Lists (ACL's)
-> - Firewall, routers
-> - IDS/IPS
-2. **Managerial**
-    - These are basically policies or procedures which are defined by the organisations security policy.
-    - There can be various types of **planning and assessment methods** which can be used to **review organisations ability to manage and reduce risk.**
-> ### Examples
-> - Policies
-> - Procedures
-> - Hiring practices
-> - Background checks
-> - Data classification
-> - Security training
-> - Risk assessments
-> - Vulnerability assessments
-3. **Operational [New in SY0-701]**
-    - As the name suggests, this is a type where it is ensured that **day-to-day operations** of the organisation comply with the overall security.
-    - This is primarily **implemented by people** and not machines.
-    - The people here while ensuring security use technology which is defined through the ***Technical*** section. 
-> ### Examples
-> - Awareness training
-> - Configuration Management
-> - Media protection
-4. **Physical**
-    - These are tye type of security mechanisms which are focused on providing security to **real world objects including facility where the objects are**
-    - **Protecting what we can touch**
-> ### Examples
-> - Guards
-> - Fences
-> - Lights
-> - Motion detectors
-> - Guard dogs
-> - Video Cameras
-> - Alarms
-> - Laptop locks
+### Categories of Security Controls
 
-> ## Summary
-> - Technical - ***Technology (HW & SW)***
-> - Physical - ***Tangible***
-> - Managerial - ***Policy (and policy implementation)***
-> - Operational - ***People (doing stuff)***
-> - Physical --> Operational --> Technical --> Managerial --> Assets 
+#### 1. Technical
 
-# Types of Security Controls
+Technical controls are like gadgets and software that help keep our stuff safe and make sure only the right people can use them.
 
-***Controls can fit into multiple types based on the context and the situation.***
+**Examples:**
+- **Encryption**: This is like a secret code that only certain people can read.
+- **Smart Cards**: These are special cards that let you into places or systems.
+- **Passwords**: Secret words or phrases only you know.
+- **Biometrics**: Using your fingerprint or face to unlock things.
+- **Access Control Lists (ACL's)**: Lists that say who can and can't use something.
+- **Firewall, Routers**: Gadgets that keep bad guys out of your computer network.
+- **IDS/IPS**: Tools that watch out for bad guys and stop them.
 
-1. **Preventive** - deployed to **stop unauthorized activity** from occuring. 
+#### 2. Managerial
 
-    > Preventive is also a Deterrent
-2. **Deterrent** - deployed to **discourage violation** of security policies.
-3. **Detective** - deployed to **discover or detect** unwanted activity.
-4. **Corrective** - modifies the environment to **return back to normal** after an unwanted activity has occured. 
-5. **Compensating** - provides options to **other existing controls to aid in** enforcement of security policies. [Supporting or redundant controls]
-6. **Directive** - **direct, confine or control** the actions of subjects to force or encourage compliance with security policies.
+Managerial controls are like the rules and plans that organizations use to keep things safe.
 
-## Extras
-### Difference between safeguards and countermeasures
-- Safeguards - are proactive **(reduce likelihood of occurance)**
-- Countermeasures - are reactive **(reduce impact after occurance)**
+**Examples:**
+- **Policies**: Rules everyone has to follow.
+- **Procedures**: Steps to do things the right way.
+- **Hiring Practices**: Making sure you hire good and trustworthy people.
+- **Background Checks**: Checking if someone has done bad things before.
+- **Data Classification**: Deciding what information is most important.
+- **Security Training**: Teaching people how to stay safe.
+- **Risk Assessments**: Figuring out what could go wrong.
+- **Vulnerability Assessments**: Finding things that could be broken or used by bad guys.
 
-### Control can overlap i.e. One control, multiple type/functions
+#### 3. Operational (New in SY0-701)
 
-### Focus on keywords
-1. Deterrent: **"Warning"**, **"Sign"**, **"Visibility"**, **"Perception"**
-2. Preventive: **"Access control"**, **"Authentication"**, **"Firewall"**, **"Encryption"**
-3. Directive: **"Policy"**, **"Procedure"**, **"Standard"**, **"Guideline"**
-4. Detective: **"Monitoring"**, **"Audit"**, **"Logging"**, **"Alert"**
-5. Corrective: **"Backup"**, **"Restore"**, **"Incident response"**, **"Patching"**
-6. Compensating: **"Alternative"**, **"Backup"**, **"Redundancy"**
+Operational controls are about making sure everyday work follows the safety rules. People do these tasks, not machines.
 
-**Note: You should know some of the examples of each type of security controls as listed above.**
+**Examples:**
+- **Awareness Training**: Teaching everyone about safety rules.
+- **Configuration Management**: Keeping track of how everything is set up.
+- **Media Protection**: Keeping things like USB drives and CDs safe.
+
+#### 4. Physical
+
+Physical controls are about protecting real-world objects, like the building where you keep your stuff.
+
+**Examples:**
+- **Guards**: People who watch over things.
+- **Fences**: Barriers that keep people out.
+- **Lights**: Bright lights that make it hard for bad guys to hide.
+- **Motion Detectors**: Gadgets that sense if someone is moving.
+- **Guard Dogs**: Dogs that watch over and protect places.
+- **Video Cameras**: Cameras that record what’s happening.
+- **Alarms**: Loud noises that warn you if something’s wrong.
+- **Laptop Locks**: Locks that keep your computer safe.
+
+### Summary
+
+- **Technical**: Using technology (hardware & software).
+- **Physical**: Things you can touch.
+- **Managerial**: Rules and plans.
+- **Operational**: People doing stuff.
+- **Physical** -> **Operational** -> **Technical** -> **Managerial** -> Assets
+
+### Types of Security Controls
+
+Security controls can be used in different ways depending on the situation.
+
+#### 1. Preventive
+
+Preventive controls stop bad things from happening.
+
+**Examples:**
+- **Access Control**
+- **Authentication**
+- **Firewall**
+- **Encryption**
+
+#### 2. Deterrent
+
+Deterrent controls make people think twice before doing something bad.
+
+**Examples:**
+- **Warning Signs**
+- **Visible Security Cameras**
+
+#### 3. Detective
+
+Detective controls find out if something bad has happened.
+
+**Examples:**
+- **Monitoring**
+- **Audit**
+- **Logging**
+- **Alert**
+
+#### 4. Corrective
+
+Corrective controls fix things after something bad has happened.
+
+**Examples:**
+- **Backup**
+- **Restore**
+- **Incident Response**
+- **Patching**
+
+#### 5. Compensating
+
+Compensating controls help support other controls to keep things safe.
+
+**Examples:**
+- **Alternative Measures**
+- **Redundancy**
+
+#### 6. Directive
+
+Directive controls give instructions to make sure people follow the rules.
+
+**Examples:**
+- **Policies**
+- **Procedures**
+- **Standards**
+- **Guidelines**
+
+### Extras
+
+#### Difference Between Safeguards and Countermeasures
+
+- **Safeguards**: Proactive measures to reduce the chance of something bad happening.
+- **Countermeasures**: Reactive measures to reduce the impact after something bad happens.
+
+#### Control Overlap
+
+One control can have multiple functions or types.
+
+#### Keywords Focus
+
+- **Deterrent**: "Warning", "Sign", "Visibility", "Perception"
+- **Preventive**: "Access control", "Authentication", "Firewall", "Encryption"
+- **Directive**: "Policy", "Procedure", "Standard", "Guideline"
+- **Detective**: "Monitoring", "Audit", "Logging", "Alert"
+- **Corrective**: "Backup", "Restore", "Incident response", "Patching"
+- **Compensating**: "Alternative", "Backup", "Redundancy"
+
+**Note: You should know some of the examples of each type of security control as listed above.**
